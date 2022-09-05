@@ -7,7 +7,7 @@ public class OppgaveB5 {
 	public static void main(String[] args) {
 
 		for (int i = 1; i <= 10; i++) {
-			String poengsumTxt = showInputDialog("Hvilken poengs2um fikk du?");
+			String poengsumTxt = showInputDialog("Hvilken poengsum fikk du?");
 			int poengsum = parseInt(poengsumTxt);
 			if (poengsum > 100 || poengsum < 0) {
 				i--;

@@ -5,8 +5,8 @@ import static javax.swing.JOptionPane.showInputDialog;
 import static javax.swing.JOptionPane.showMessageDialog;
 
 public class OppgaveB4 {
-
 	public static void main(String[] args) {
+
 		String lønnTxt = showInputDialog("Hvor mye tjente du?");
 		double lønn = parseDouble(lønnTxt);
 
