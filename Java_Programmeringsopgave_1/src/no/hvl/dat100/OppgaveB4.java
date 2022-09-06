@@ -7,7 +7,7 @@ import static javax.swing.JOptionPane.showMessageDialog;
 public class OppgaveB4 {
 	public static void main(String[] args) {
 
-		String lønnTxt = showInputDialog("Hvor mye tjente du?");
+		String lønnTxt = showInputDialog("Hvor mye tjente du i år?");
 		double lønn = parseDouble(lønnTxt);
 
 		if (lønn <= 190349) {
